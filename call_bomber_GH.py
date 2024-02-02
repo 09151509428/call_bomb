@@ -10,6 +10,7 @@ os.system("pip install _thread")
 import socket
 import _thread
 print(f'\033[32m')
+os.system("clear")
 print(f'BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMBER MAN')
 print(f'\033[31m')
 from time import sleep
@@ -32,7 +33,7 @@ x = ("""
 |⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⣿⣦⡀
 |⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣷
 |⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⡿
-|   . . ⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⣟⣋⣁⣀⣀⠀                   
+|       ⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⣟⣋⣁⣀⣀⠀                   
 |⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇ㅤ                  
 
 		""")
@@ -80,7 +81,6 @@ if __name__ == "__main__":
     print(' call BOMBED ')
     time.sleep(2)
     print(f'\033[32m')
-    os.system("clear")
     number = input("Enter the phone number: ")
     current_time = datetime.datetime.now()
     print( current_time)
